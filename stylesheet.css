@@ -8,3 +8,7 @@ body {
   color: white;
   background: black;
 }
+
+p { 
+  font-family: "Times New Roman";
+}
