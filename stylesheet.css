@@ -1,3 +1,6 @@
+.image{
+  width: 250px;
+}
 h1{
   color:blue;
 }
@@ -11,4 +14,17 @@ body {
 
 p { 
   font-family: "Times New Roman";
+}
+#section1{
+  Width:48%;
+  border: 1px dotted red;
+}
+#section2{
+  Width:48%;
+  border: 1px dotted green;
+  vertical-align: top;
+}
+
+#section1, #section2 {
+  display:inline-block;
 }
