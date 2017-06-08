@@ -1,10 +1,10 @@
 $(document).ready(function(){
 	var random_num = Math.floor((Math.random()*100) + 1);
-	//create click event for submit button
+	$("id=submit button").click(function(){
  
  
  
-	//create click event for clear button
+	$("id=clear button").click(function(){		
  
  
 });
