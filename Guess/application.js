@@ -3,12 +3,11 @@ $(document).ready(function(){
 	$("#submit").click(function(){
 		//what did they guess?
 		var guess = $("input[name=Number]").val();
-		        if(guess == random_num){
+		if(guess == random_num){
 			$("div").html("Correct guess!");
 		} else if (guess < random_num){
 			  $("div").html("Guess higher!");
-		} else if 
-			$(guess < random_num)
+		} else if (guess > random_num){
 			$("div").html("Guess lower!");
 		}
 	});	
