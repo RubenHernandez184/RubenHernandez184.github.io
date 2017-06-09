@@ -2,6 +2,7 @@ $(document).ready(function(){
 	var random_num = Math.floor((Math.random()*100) + 1);
 	$("#submit").click(function(){
 		//what did they guess?
+		console.log('submit clicked');
 		var guess = $("input[name=Number]").val();
 		if(guess == random_num){
 			$("div").html("Correct guess!");
